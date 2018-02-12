@@ -9,7 +9,7 @@ import { PagesModule } from './pages/pages.module';
 
 // Componentes
 import { AppComponent } from './app.component';
-import { PagesComponent } from './pages/pages.component';
+// import { PagesComponent } from './pages/pages.component';
 import { NopagefoundComponent } from './shared/nopagefound/nopagefound.component';
 import { LoginComponent } from './login/login.component';
 
