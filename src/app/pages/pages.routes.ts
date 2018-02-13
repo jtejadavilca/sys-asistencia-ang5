@@ -12,7 +12,7 @@ const pagesRoutes: Routes = [
         children : [
             { path : 'options-panel', component : OptionsPanelComponent, data: { titulo: 'Panel de Opciones' } },
             { path : 'account-settings', component : AccountSettingsComponent, data: { titulo: 'Account Settings' } },
-            { path : '', redirectTo : '/test', pathMatch: 'full' },
+            { path : '', redirectTo : '/options-panel', pathMatch: 'full' },
         ]
     }
 ];
